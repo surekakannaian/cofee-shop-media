@@ -466,3 +466,115 @@ footer {
         scroll-padding-top: 4.5rem;
     }
 }
+@media only screen and (max-width:600px) {
+  .nav-links {
+        width: 90%;
+    }
+    .logo img {
+        height: 10vh;
+        margin-left: 0;
+    
+    }
+    .nav-links li {
+        font-size: 10px;
+    }
+
+    .description {
+        width: 70%;
+        padding-top: 10vh;
+        margin-left: 15%;
+    }
+
+    .about img {
+        width: 40%;
+    }
+
+    .fac-card {
+        display: block;
+    }
+
+    .fac-card1 {
+        width: 75%;
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .menu-r1 {
+        margin: auto;
+        display: block;
+        margin-top: 3%;
+    }
+
+    .menu-r2 {
+        display: block;
+        margin: auto;
+    }
+
+    .gallery .first-row {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .gallery .second-row {
+        display: block;
+        margin: auto;
+    }
+
+    .gallery .first-row img {
+        margin-top: 2%;
+    }
+
+    .gallery .second-row img {
+        margin-top: 2%;
+    }
+    .team .menu-r1 {
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+    }
+    
+    .team .menu-r2 {
+        display: block;
+      margin: auto;
+    }
+    .team .r1-card h1 {
+        margin-top: 0;
+    }
+    .team .r1-card img {
+        margin-top: 5%;
+    }
+    .divide {
+        display: block;
+        margin-top: 30px;
+    }
+    .divide img {
+        height: 300px;
+    }
+    .form1 {
+        width: 75%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        padding-bottom: 4%;
+    }
+    .contact-icon {
+        width: 90%;
+        margin-top: 10%;
+           }
+    .shop-info1 i {
+        font-size: 13px;
+    }
+    .shop-info1 h4 {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .shop-info1 h2 {
+        font-size: 14px;
+    }
+    html {
+
+        scroll-padding-top: 4.5rem;
+    }
+}
