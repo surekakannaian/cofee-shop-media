@@ -355,8 +355,16 @@ footer {
 }
 
 @media only screen and (max-width:480px) {
-    .nav-links {
-        width: 85%;
+  .nav-links {
+        width: 90%;
+    }
+    .logo img {
+        height: 10vh;
+        margin-left: 0;
+    
+    }
+    .nav-links li {
+        font-size: 10px;
     }
 
     .description {
