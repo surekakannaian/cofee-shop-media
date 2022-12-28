@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    scroll-padding-top: 5rem;
+}
+
+header {
+    height: 15vh;
+    background-color: white;
+    box-shadow: 0 0 4px 0 rgb(153, 169, 177);
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 13vh;
+    border-radius: 17px;
+    margin-top: 5px;
+    margin-left: 30%;
+
+}
+
+.nav-links {
+    margin-top: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    list-style: none;
+    font-size: 110%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: rgb(180, 70, 70);
+}
+
+.home1 {
+    height: 88vh;
+    background-image: url("images/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    width: 50%;
+    color: white;
+    padding-top: 15vh;
+    margin-left: auto;
+    text-align: center;
+}
+
+.description h1 {
+    font-size: 40px;
+}
+
+.description p {
+    font-size: 20px;
+    margin-top: 3%;
+
+
+}
+
+.description button {
+    margin-top: 50px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(19, 17, 17);
+    color: aliceblue;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img {
+    height: 70vh;
+    margin-left: 5%;
+    margin-top: 110px;
+    border-radius: 28px;
+}
+
+.about .right {
+    width: 50%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.about h1 {
+    font-size: 45px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.about p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about button {
+    padding: 15px 25px;
+    margin-top: 25px;
+    background-color: rgb(209, 111, 111);
+}
+
+.facility {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.facility .end img {
+    height: 100px;
+}
+
+.facility .end h1 {
+    font-size: 45px;
+}
+
+.fac-card {
+    display: flex;
+}
+
+.fac-card1 {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 70px;
+}
+
+.fac-card1 img {
+    border-radius: 12px;
+    height: 200px;
+}
+
+.fac-card1 h1 {
+    margin-top: 3%;
+}
+
+.fac-card1 p {
+    text-align: justify;
+    margin-top: 3%;
+}
+
+.menu1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.menu1 .end img {
+    height: 100px;
+
+}
+
+.menu1 .end h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.menu-r1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.menu-r2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.menu1 .r1-card img {
+    height: 200px;
+    width: 250px;
+}
+
+.menu1 .r1-card h1 {
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.gallery .end img {
+    height: 100px;
+}
+
+.gallery .end h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.gallery .first-row {
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.gallery .second-row {
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.gallery .first-row img {
+    height: 200px;
+    width: 300px;
+}
+
+.gallery .second-row img {
+    height: 200px;
+    width: 300px;
+}
+.team{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.team .end1 img {
+    height: 100px;
+}
+
+.team .end1 h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.team .menu-r1 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team .menu-r2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.team .r1-card img {
+    height: 250px;
+    width: 250px;
+}
+
+.team .r1-card h1 {
+    margin-top: 3%;
+}
+.contact1{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.contact1 .end2 img {
+    height: 100px;
+    }
+
+.contact1 .end2 h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.divide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.divide img {
+    height: 500px;
+}
+
+.form1 {
+    border: 2px solid black;
+    width: 35%;
+    text-align: center;
+    margin-right: 90px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.form1 h1 {
+    margin-top: 30px;
+}
+
+form input {
+    padding: 10px 35px;
+    border: 2px solid black;
+}
+
+form button {
+    border: none;
+    padding: 8px 30px;
+    background-color: rgb(218, 83, 83);
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    color: rgb(70, 15, 15);
+    margin-top: 5%;
+}
+.shop-info1 i {
+    font-size: 30px;
+}
+.shop-info1 h4 {
+    margin-top: 5px;
+}
+
+
+hr {
+    border: 1px solid black;
+    width: 80%;
+   margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+footer {
+    text-align: center;
+    height: 10vh;
+       font-size: 15px;
+}
+
+@media only screen and (max-width:480px) {
+    .nav-links {
+        width: 85%;
+    }
+
+    .description {
+        width: 70%;
+        padding-top: 10vh;
+        margin-left: 15%;
+    }
+
+    .about img {
+        width: 40%;
+    }
+
+    .fac-card {
+        display: block;
+    }
+
+    .fac-card1 {
+        width: 75%;
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .menu-r1 {
+        margin: auto;
+        display: block;
+        margin-top: 3%;
+    }
+
+    .menu-r2 {
+        display: block;
+        margin: auto;
+    }
+
+    .gallery .first-row {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .gallery .second-row {
+        display: block;
+        margin: auto;
+    }
+
+    .gallery .first-row img {
+        margin-top: 2%;
+    }
+
+    .gallery .second-row img {
+        margin-top: 2%;
+    }
+    .team .menu-r1 {
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+    }
+    
+    .team .menu-r2 {
+        display: block;
+      margin: auto;
+    }
+    .team .r1-card h1 {
+        margin-top: 0;
+    }
+    .team .r1-card img {
+        margin-top: 5%;
+    }
+    .divide {
+        display: block;
+        margin-top: 30px;
+    }
+    .divide img {
+        height: 300px;
+    }
+    .form1 {
+        width: 75%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        padding-bottom: 4%;
+    }
+    .contact-icon {
+        width: 90%;
+        margin-top: 10%;
+           }
+    .shop-info1 i {
+        font-size: 13px;
+    }
+    .shop-info1 h4 {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .shop-info1 h2 {
+        font-size: 14px;
+    }
+    html {
+
+        scroll-padding-top: 3.5rem;
+    }
+}
